@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <h2>JavaScript prototype</h2>
+
+    <p id="demo"></p>
+
+    <script>
+        function Friend(first, last, age,) {
+            this.firstName = first;
+            this.lastName = last;
+            this.age = age;
+            this.city = 'Nawabshah';
+        }
+
+        const myBestFriend = new Friend("Faizan", "Ahmed", 20,);
+        const mySecondBEstFriend = new Friend("Wajid", "Khan", 19,);
+        myBestFriend
+
+        document.getElementById("demo").innerHTML =
+            "My best friend is " + myBestFriend.firstName + " and he is " + myBestFriend.age + " year old " + " . My second best friend is " + mySecondBEstFriend.firstName + " and he's from " + mySecondBEstFriend.city; 
+    </script>
+
+</body>
+
+</html>

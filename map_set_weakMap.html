@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+ // set 
+ let num = [11, 22, 33, 44, 55]
+ let myNum = new Set(num);
+
+ myNum.add('Sohaib Ahmed')
+ myNum.add({a: 66, b: 77})
+ myNum.delete(33)
+
+ console.log(myNum,)
+
+
+
+
+// Map 
+let myMap = new Map([['firstName', 'Sohaib'], ['lastName', 'Ahmed'], ['cast', 'Khanzada']])
+
+myMap.set('city', 'Karachi')
+myMap.delete('lastName')
+
+console.log(myMap)
+
+
+
+
+// weakSet
+let car = new WeakSet();
+
+let car1 ={
+    company: 'Honda',
+    model : 'city'
+}
+car.add(car1)
+
+
+
+let car2 ={
+    company: 'Toyota',
+    model : 'grandy'
+}
+car.add(car2)
+
+console.log(car)
+
+
+    </script>
+</body>
+</html>

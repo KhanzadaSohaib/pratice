@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+// A basic example of destructuring
+
+    const number = [23, 55, 65, 43, 35, 98, 53, 'accept String'];
+    [a, b, c, ...d] = number;
+    console.log(a, b, c, d)
+
+
+
+// #2nd
+
+
+
+const person = {
+    name: 'sohaib',
+    age: 21,
+    cast: 'khanzada',
+    start: function () {console.log('started');}
+
+}
+const {name, age, cast} = person;
+console.log(name, cast, age)
+
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>

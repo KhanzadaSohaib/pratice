@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<Script>
+
+function sum (a, b){
+    return a + b;
+}
+
+var mySum = [10, 59]
+
+console.log(sum(...mySum));  //Spread Operator
+
+
+
+
+function rest(...numbers) {  //Rest Operator
+    let temp = 0;
+    for (const number of numbers) {
+        temp += number;
+    }
+    return temp;
+}
+
+console.log(rest(3, 2, 5, 7, 4))
+
+
+
+
+function rest1(a, b,...numbers) {  
+    let multi = a * b;
+    let temp = 0;
+    for (const number of numbers) {
+        temp += number;
+    }
+    return [temp, multi];
+}
+
+console.log(rest1(3, 2, 5, 7, 4))
+
+</Script>
+
+</body>
+</html>

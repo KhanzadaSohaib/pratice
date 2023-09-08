@@ -1,0 +1,68 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        
+
+<h1 id="demo"></h1>
+<h1 id="cast"></h1>
+
+
+ <script>
+// normal function
+function add (x,y) {
+    let sum = x * y;
+    console.log(sum)
+}
+add(6,7)
+
+// Arrow function
+let  add2 = (x,y) => {
+    let sum = x * y;
+    console.log(sum)
+}
+add2(7,7)
+
+
+
+
+
+
+
+// 2nd Example 
+
+let name = '';
+
+name = function (){
+    return 'sohaib ahmed'
+ 
+}
+console.log(name)
+
+document.getElementById("demo").innerHTML = name();
+
+ 
+
+
+
+
+let name1 = '';
+
+name = () => {
+    return 'Khanzada'
+ 
+}
+console.log(name)
+
+document.getElementById("cast").innerHTML = name();
+
+
+
+
+ </script>
+    </body>
+    </html>

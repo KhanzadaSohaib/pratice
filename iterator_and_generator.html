@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iterator and generator</title>
+</head>
+
+<body>
+    <script>
+
+// iterator 
+let numbers = [100, 200, 300, 400];
+let num = numbers[Symbol.iterator]();
+
+console.log('ITERATOR')
+console.log(num.next())
+console.log('Stop Here')
+num.next()
+num.next()
+console.log(num.next())
+console.log(num.next())
+
+
+
+
+        // generator function
+
+        function* test() {
+            console.log('first massage')
+            yield 'hey i am number 1'
+            console.log('second massage')
+            yield 'hey i am number 2'
+        }
+        let info = test();
+        console.log('GENERATOR')
+        console.log(info.next())
+        console.log(info.next())
+
+    </script>
+</body>
+
+</html>

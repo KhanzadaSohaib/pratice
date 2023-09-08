@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+<script>
+         
+          // forEach loop
+
+var names = ['Sohaib', 'Umair', 'Zubair', 'Owais']
+
+names.forEach(function(value, index){
+ document.write(index + ' : ' + value + '<br>')
+})
+
+
+
+//Map
+
+var arr = [10, 20, 30, 40, 50];
+var newArr = arr.map(function(value){ // map can't change the orignal array
+    value++;
+    return value;
+});
+
+console.log(arr, 'Map method');
+console.log(newArr, 'Map method');
+
+
+//filter 
+
+var ages = [23, 45, 2, 64, 21, 5, 9, 23,]
+
+var age2 = ages.filter(needYoungBoys);
+console.log(age2, 'Filter Method');
+
+function needYoungBoys(age ){
+    return age >= 18;
+}
+
+
+
+//Reduce 
+
+let Array = [2, 4, 54, 64,3, 8, 34];
+let newArr3 = Array.reduce(function(h1, h2){
+return h1 + h2;
+})
+
+console.log(newArr3, 'Reduce method');
+
+
+</script>
+
+
+
+
+
+
+
+</body>
+</html>

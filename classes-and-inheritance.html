@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+// classes
+class School {
+    constructor(name, studyLevel, fee){
+  this.name = name;
+  this.studing = studyLevel;
+  this.fee = fee;
+    }
+}
+student1 = new School('Ubaid', '7th Class', 3000);
+student2 = new School('Danish', '11th class', 4500);
+
+
+console.log(student1, 'classes')
+console.log(student2)
+
+
+
+
+// inheritance
+
+class University extends School {
+    constructor(name, studyLevel, fee, depart, UniversityName){
+    super(name, studyLevel, fee);
+    this.department = depart;
+    this.UniversityName = UniversityName;
+    }
+}
+
+student3 = new University('Arham', 'university', 38000, 'computer science', 'fedral urdu university');
+console.log(student3, 'Inheritance')
+
+
+
+
+
+    </script>
+</body>
+</html>

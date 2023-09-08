@@ -1,0 +1,177 @@
+                                                                                                                   Practice
+ 
+                                                                                                         1:     CLOSURE
+
+A closure is a feature of JavaScript that allows inner functions to access the outer scope of a function. Closure helps in binding a function to its outer boundary and is created automatically whenever a function is created. A block is also treated as a scope since ES6.
+
+
+
+
+                                                                              
+                                                                                                       2:  PROTOTYPE
+
+          The prototype property allows you to add new methods to objects constructors
+
+
+
+
+
+
+                                                                                            3:   asynchronous programming
+
+Asynchronicity means that if JavaScript has to wait for an operation to complete, it will execute the rest of the code while waiting. Note that JavaScript is single-threaded. This means that it carries out asynchronous operations via the callback queue and event loop.                                                            
+
+ asynchronous is a non blocking code. 
+
+
+
+
+
+
+
+                                                                                          4:  ES6 FEATURES
+
+     ES6 or the ECMAScript 2015 is the 6th and major edition of the ECMAScript language specification standard. It defines the standard for the implementation of JavaScript and it has become much more popular than the previous edition ES5.
+
+ 1  : let and const Keywords
+ 2  : Arrow Functions
+ 3  : Multi-line Strings
+ 4  : Default Parameters
+ 5  : Template Literals
+ 6  : Destructuring Assignment
+ 7  : Enhanced Object Literals
+ 8  : Promises
+ 9  : Classes
+ 10 : Modules
+
+
+
+                                                                                   5:  ARROW FUNCTION  :-
+
+                                             It gets shorter! If the function has only one statement, and the statement                                                   
+                                              returns a value, you can remove the brackets and the return keyword
+                                               The handling of (this) is also different in arrow functions compared to regular functions.
+                                                with arrow functions there are no binding of (this).
+
+
+
+
+
+
+
+                                                                                            6:   DESTRUCTURING :- 
+
+                                           Destructuring is a JavaScript expression that allows us to extract data from arrays, objects, and maps 
+                                           and set them into new, distinct variables. Destructuring allows us to extract multiple properties, or 
+                                            items, from an array​ at a time
+
+
+
+
+
+
+                                                                                      7:  SPREAD And REST OPERATOR :-
+
+                                                                      while the spread operator expands elements of an iterable, the rest operator compresses them. It collects several elements. In functions when we require to pass arguments but were not sure how many we have to pass, the rest parameter makes it easier.
+
+
+
+
+
+
+                                                                                                             8: LET And CONST
+     
+             LET :- If we declare a variable with let then we cannot declare it again with the same name, but can re-assign its value.
+       
+            CONST :- If we declare a variable with const , then we can neither declare it again nor can re-assign its value.
+
+         
+
+
+                                                                                                    9:  ARRAY'S METHOD :-
+
+                                               forEach : loops through any array, executing a provided function once for each array element in ascending index order.
+
+                                                MAP  : The map() method create a new array with the results of calling a provided function on every element in the calling array.  map call a provided callback function once for each element in an array in order and returns a new array from the results.
+
+               
+                                               FILTER :-
+                                                                  Filter() method create an array filled with all array elements that pass a test.
+                                              
+
+                                                REDUCE :- The reduce() method of Array instances executes a user-supplied "reducer" callback function on each element of the array, in order, passing in the return value from the calculation on the preceding element.
+
+
+
+
+
+ 
+                                                                                    10:   CLASSES AND INHERITANCE
+
+   
+   Inheritance in javascript is used to inherit attributes and methods of a class. Classes are inherited using the extends keyword. The class that is being inherited is known as the parent class, and the class that is inheriting the parent class is known as the child class.
+
+                                                
+
+
+       
+                                                                                                 11:  MODULES
+
+  JavaScript modules allow you to break up your code into separate files. This makes it easier to maintain a code-base. Modules are imported from external files with the import statement. 
+
+
+
+
+
+
+                                                                   12 : Promises And Asynchronous Programming
+
+   A promise is a promise of code execution . the code either execute or fails in both the cases the solution will be notified.
+
+
+     
+
+                                                                             13 : Fetch API
+
+  fetch is used to get data over the network. The Fetch API provides a JavaScript interface for accessing and manipulating parts of the protocol, such as requests and responses.
+
+
+
+
+                                                                                14 : Default Parameter
+
+      As we know, the default value of the parameter in JavaScript is undefined. This means that if we do not pass any argument in the function, the function automatically assigns the value undefined.
+
+
+
+
+
+
+                                                        15 : Map Set And WeakMap/ WeakSet
+ 
+         Set : It contain only unique values.
+
+         Map: A Map holds key-value pairs where the keys can be any datatype. A Map remembers the original   insertion order of the keys. A Map has a property that represents the size of the map.
+
+   weakSet: A WeakSet is a collection of garbage-collectable values, including objects and non-registered symbols
+
+
+
+
+
+
+              
+                                                                     16 : Iterator And Generator
+
+Generators are a special type of function in JavaScript that can pause and resume state. A Generator function returns an iterator, which can be used to stop the function in the middle, do something, and then resume it whenever
+
+
+
+
+
+
+
+
+                                                                      17 : Object Enhancement
+
+   Variable are assigned implicitely to the propertied with same name. If  we are not assigning any value to that propert explicitely.
